@@ -84,3 +84,26 @@ hr {
   font-size: 18px;
   padding-top: 35px;
 }
+
+@media (max-width: 768px) {
+  body {
+    font-size: 24px;
+  }
+  #social {
+      font-size: 26px;
+      margin: 50px 0 50px;
+      text-align: center;
+  }
+  #logo {
+    background: rgba(255,255,255,0.7);
+    padding: 15px;
+    margin-top: 30px;
+  }
+  .block-dark, .block-light {
+    padding: 20px;
+    margin: 0;
+  }
+  .text-large {
+    font-size: 26px;
+  }
+}
