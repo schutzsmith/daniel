@@ -18,6 +18,9 @@ html(lang="en")
     // Animation CSS
     link(rel="stylesheet" crossorigin="anonymous" integrity="sha256-1hIhSlowg4vqaFZ/bikPMfEGwSgM0FtIs7mx1PADHCk=" href="https://cdn.jsdelivr.net/animatecss/3.5.1/animate.min.css")
 
+    // Ion Icons
+    link(rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css")
+
     // CSS Overide
     link(href="/css/main.css" type="text/css" rel="stylesheet")
 
@@ -27,11 +30,38 @@ html(lang="en")
     script(src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js")
     // [endif]
 
-  body.blur
+    link(rel="apple-touch-icon", sizes="57x57", href="/favicons/apple-touch-icon-57x57.png?v=YAAjWg3WaR")
+    link(rel="apple-touch-icon", sizes="60x60", href="/favicons/apple-touch-icon-60x60.png?v=YAAjWg3WaR")
+    link(rel="apple-touch-icon", sizes="72x72", href="/favicons/apple-touch-icon-72x72.png?v=YAAjWg3WaR")
+    link(rel="apple-touch-icon", sizes="76x76", href="/favicons/apple-touch-icon-76x76.png?v=YAAjWg3WaR")
+    link(rel="apple-touch-icon", sizes="114x114", href="/favicons/apple-touch-icon-114x114.png?v=YAAjWg3WaR")
+    link(rel="apple-touch-icon", sizes="120x120", href="/favicons/apple-touch-icon-120x120.png?v=YAAjWg3WaR")
+    link(rel="apple-touch-icon", sizes="144x144", href="/favicons/apple-touch-icon-144x144.png?v=YAAjWg3WaR")
+    link(rel="apple-touch-icon", sizes="152x152", href="/favicons/apple-touch-icon-152x152.png?v=YAAjWg3WaR")
+    link(rel="apple-touch-icon", sizes="180x180", href="/favicons/apple-touch-icon-180x180.png?v=YAAjWg3WaR")
+    link(rel="icon", type="image/png", href="/favicons/favicon-32x32.png?v=YAAjWg3WaR", sizes="32x32")
+    link(rel="icon", type="image/png", href="/favicons/android-chrome-192x192.png?v=YAAjWg3WaR", sizes="192x192")
+    link(rel="icon", type="image/png", href="/favicons/favicon-96x96.png?v=YAAjWg3WaR", sizes="96x96")
+    link(rel="icon", type="image/png", href="/favicons/favicon-16x16.png?v=YAAjWg3WaR", sizes="16x16")
+    link(rel="manifest", href="/favicons/manifest.json?v=YAAjWg3WaR")
+    link(rel="mask-icon", href="/favicons/safari-pinned-tab.svg?v=YAAjWg3WaR", color="#5bbad5")
+    link(rel="shortcut icon", href="/favicon.ico?v=YAAjWg3WaR")
+    meta(name="msapplication-TileColor", content="#da532c")
+    meta(name="msapplication-TileImage", content="/favicons/mstile-144x144.png?v=YAAjWg3WaR")
+    meta(name="theme-color", content="#ffffff")
+
+  body
     != yield
 
-    #footer
-         p.text-center Copyright &copy; 2016 Daniel Hayes Schutzsmith
+    #social.container-fluid
+        .row
+            .col-md-12
+
+
+    #footer.container-fluid
+        .row
+            .col-md-12
+                p.text-center Copyright &copy; 2016 <a href="mailto:daniel@schutzsmith.com">Daniel Hayes Schutzsmith</a>
 
 
     // JQuery
