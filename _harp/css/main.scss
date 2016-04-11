@@ -62,11 +62,20 @@ a:focus, a:hover {
 }
 
 #social {
-  font-size: 18px;
-  margin: 30px 0 100px;
+  color: #fff;
+  background: #673ab7;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  margin: 100px 0 0;
 
   a {
-    color: #212121;
+    color: #fff;
+  }
+
+  i.icon {
+    font-size: 64px;
+    padding: 0 15px;
+    line-height: 1em;
   }
 }
 
@@ -83,10 +92,15 @@ a:focus, a:hover {
 #events {
   font-size: 18px;
   padding-top: 30px;
+  padding-bottom: 40px;
 
   div {
     margin-bottom: 15px;
   }
+}
+
+#associations div img {
+  padding: 0 15px;
 }
 
 .text-large {
@@ -107,8 +121,15 @@ h2 {
 
 #footer {
   color: #b6b6b6;
+  background : #212121;
   font-size: 18px;
-  padding-top: 35px;
+  padding-top: 90px;
+  padding-bottom: 30px;
+
+  i.icon {
+    font-size: 42px;
+    padding: 10px;
+  }
 }
 
 .trim {
