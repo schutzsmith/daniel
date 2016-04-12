@@ -2,12 +2,17 @@ doctype
 html(lang="en")
   head
 
+    title Daniel Schutzsmith - Coder. Designer. Entrepreneur.
+
+    // Search Info
+    meta(name="author" content="Daniel Schutzsmith")
+    meta(name="description" content="The portfolio website of coder, designer, and entrepreneur Daniel Schutzsmith. Co-founder of Digital Empire, Catskills Conf, Hudson Valley Tech Meetup, The Poughkeepsie Club and 3 wonderful kids with his wife Sabrina.")
+    meta(name="robots" content="index, follow")
+    link(rel="canonical" href="http://daniel.schutzsmith.com")
+
     meta(charset="utf-8")
     meta(http-equiv="X-UA-Compatible" content="IE=edge")
     meta(name="viewport" content="width=device-width, initial-scale=1")
-
-    meta(name="description" content="The personal website of designer, developer, and entrepreneur Daniel Schutzsmith. Co-founder of Digital Empire, Catskills Conf, Hudson Valley Tech Meetup, The Poughkeepsie Club and 3 wonderful kids with his wife Sabrina.")
-    meta(name="author" content="Daniel Schutzsmith")
 
     // Fonts
     link(href='https://fonts.googleapis.com/css?family=Poppins:400,700,600,300' rel='stylesheet' type='text/css')
@@ -49,6 +54,22 @@ html(lang="en")
     meta(name="msapplication-TileColor", content="#da532c")
     meta(name="msapplication-TileImage", content="/favicons/mstile-144x144.png?v=YAAjWg3WaR")
     meta(name="theme-color", content="#ffffff")
+
+    // Twitter Card
+    meta(name="twitter:card" content="summary")
+    meta(name="twitter:site" content="@schutzsmith")
+    meta(name="twitter:creator" content="@schutzsmith")
+    meta(property="og:url" content="http://daniel.schutzsmith.com")
+    meta(property="og:title" content="Daniel Schutzsmith - Coder. Designer. Entrepreneur.")
+    meta(property="og:description" content="The portfolio of coder, designer and entrepreneur @schutzsmith")
+    meta(property="og:image" content="http://daniel.schutzsmith.com/img/bg_header_small.jpg")
+
+    // Open Graph General (Facebook & Pinterest)
+    <meta property="og:url" content="http://daniel.schutzsmith.com">
+    <meta property="og:title" content="Daniel Schutzsmith - Coder. Designer. Entrepreneur.">
+    <meta property="og:description" content="Daniel Schutzsmith is a coder, designer, & co-founder of Digital Empire, Catskills Conf, Hudson Valley Tech Meetup, Poughworking & 3 wonderful kids.">
+    <meta property="og:site_name" content="Daniel Schutzsmith Portfolio">
+    <meta property="og:image" content="http://daniel.schutzsmith.com/img/bg_header_small.jpg">
 
   body
     != yield
